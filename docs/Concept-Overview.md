@@ -14,6 +14,7 @@ Download files from
     ANZ Visa
     Nab Visa
     St George Bank (business accounts - various)
+    ANZ Business savings account
 Reformat the data of each and then save as an Xlsx file
 For Visa transaction amounts are usually displayed as negatives, change all the negative amounts to positives
 Delete payments (not credits) from the credit card files
@@ -66,5 +67,10 @@ How is the various additional information added?
         3.3 for the GST Amount, divide the total by 1/11, providing the total GST paid (double check the formula)
 
 **Processing for Bank Transactions - A new Sheet in the Workbook**
-    1. 
-        
+    1. It may be possible to put the banking transactions into the same file as the Credit Card file.
+    2. The file downloaded from the bank may include multiple bank accounts.
+    3. The amounts in the bank files can represent credits and debits, so to understand the transaction value, you need to look at the columns that have letters designating credit or debit
+    4. There is likely to be some form of description with the transaction to provide an indication of the nature of the transaction.
+    5. For most of the credits, there is likely to be an invoice ID (in a perfect world, it would be great to acquit the invoice in Harvest (Time, Expenses and Invoices application, and in the future also acquit the copy in Hubspot to provide a better understanding of our clients). Those transactions would have a GST Indicator of G. The other credits are most likely bank interest receipts, which have an GST Indicator of E. These transactions include the GST we have paid to the other party.  Occasionally, there are overseas receipts for which no GST would be payable.  I would need to check if there is an easy way for those to be E - GST Exempt
+    6. For payments, there should be a description that can be used to help determine the expense code, which could be a SubContractor, Accountant Fees, or Legal Fees.  These generally include GST, which we retain, and therefore have a GST Indicator of G. There are certain domestic transactions where there is no GST, such as ASIC Fees, ATO Payments, and other government fees, which would have a GST Indicator of E.  There would also be bank fees, bank interest, etc., which would have a GST Indicator of E. Occasionally, there may be payments to overseas companies for goods and services that are likely to be GST-exempt, and so the GST Indicator would be E.
+   7.  Whilst all the bank transactions can be identified within the master transaction list, to assist the accountant, all banking      
