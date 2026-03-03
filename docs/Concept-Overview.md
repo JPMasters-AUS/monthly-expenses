@@ -73,5 +73,20 @@ How is the various additional information added?
     4. There is likely to be some form of description with the transaction to provide an indication of the nature of the transaction.
     5. For most of the credits, there is likely to be an invoice ID (in a perfect world, it would be great to acquit the invoice in Harvest (Time, Expenses and Invoices application, and in the future also acquit the copy in Hubspot to provide a better understanding of our clients). Those transactions would have a GST Indicator of G. The other credits are most likely bank interest receipts, which have an GST Indicator of E. These transactions include the GST we have paid to the other party.  Occasionally, there are overseas receipts for which no GST would be payable.  I would need to check if there is an easy way for those to be E - GST Exempt
     6. For payments, there should be a description that can be used to help determine the expense code, which could be a SubContractor, Accountant Fees, or Legal Fees.  These generally include GST, which we retain, and therefore have a GST Indicator of G. There are certain domestic transactions where there is no GST, such as ASIC Fees, ATO Payments, and other government fees, which would have a GST Indicator of E.  There would also be bank fees, bank interest, etc., which would have a GST Indicator of E. Occasionally, there may be payments to overseas companies for goods and services that are likely to be GST-exempt, and so the GST Indicator would be E.
-   7. Whilst all the bank transactions can be identified within the master transaction list, to assist the accountant, all banking from the ST George Bank transactions should be copied to a separate sheet within the Worksheet.
-   8. 
+    7. Where payments are repayments (could be paying other bills) to Jason Masters, these are rated as E, and need to be summarised for other purposes later as part of providing the current debt to Jason.
+    8. Whilst all the bank transactions can be identified within the master transaction list, to assist the accountant, all banking from the ST George Bank transactions should be copied to a separate sheet within the Worksheet.
+
+**Summary Processing**
+
+1. There needs to be a summary schedule (from all transactions, credit cards) providing the total amount of expenses (i.e., all amounts excluding Z and P), plus the net GST amount.  There needs to be a total income amount (items G and E).
+2. Separately, there should be a total for P items, but they do not form any of the other summary details.
+3. The net position from the bank for the current month is separately recorded on the spreadsheet as well as the net GST amount.
+4. Add together the net GST position of the Credit Cards and the Bank Accounts to provide a total net GST Position.
+5. From the debt position of the prior month, add the additional credit card expenses to provide an interim new debt position.
+6. For each repayment to Jason from the bank accounts, add a line item with the date and the reason and then taken them off the interim debt position to determine a new final debt position.
+
+**Processing and End Point**
+
+1. The endpoint is an Excel workbook for each month.
+2. The processing could be via tools such as Notion, Airtable or the like.
+3. ideally it would be helpful to process receipts and payments that come in each day to make a quicker process to reconcile the data from the financial institutions.
