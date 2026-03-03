@@ -1,0 +1,8 @@
+Date,Amount,Account Number,,Transaction Type,Transaction Details,Balance,Category,Merchant Name
+31-Oct-24,-15,Card ending 2145, ,MISCELLANEOUS DEBIT,LATE PAYMENT FEE,-3721.56,Fees,
+30-Oct-24,-3211.39,Card ending 2145, ,MISCELLANEOUS DEBIT,RET D/DEBIT INSUF FUNDS,-3706.56,Fees,
+29-Oct-24,3211.39,Card ending 2145, ,CREDIT CARD PAYMENT,DIRECT DEBIT PAYMENT,-495.17,Internal transfers,
+25-Oct-24,-41.15,Card ending 2145, ,CREDIT CARD PURCHASE,MY POST BUSINESS/POST MELBOURNE,-3706.56,Services,Australia Post
+17-Oct-24,-433.34,Card ending 2145, ,CREDIT CARD PURCHASE,NEW SOUTH WALES JUST CONCORD,-3665.41,Hobbies,New South Wales Justices Association
+16-Oct-24,-20.68,Card ending 2145, ,CREDIT CARD PURCHASE,Hunters Hill Medical Werribee,-3232.07,Medical,Hunters Hill Medical Practice
+14-Oct-24,-200,Card ending 2145, ,CREDIT CARD PURCHASE,CATE MADILL VOICE MELBOURNE,-3211.39,Medical,Cate Madill Voice & Speech

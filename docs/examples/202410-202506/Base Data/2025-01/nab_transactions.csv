@@ -1,0 +1,12 @@
+Date,Amount,Account Number,,Transaction Type,Transaction Details,Balance,Category,Merchant Name
+30-Jan-25,5364.83,Card ending 2145, ,CREDIT CARD PAYMENT,DIRECT DEBIT PAYMENT,-679.73,Internal transfers,
+29-Jan-25,-430,Card ending 2145, ,CREDIT CARD PURCHASE,Dr Daniel Novakovic St Leonards,-6044.56,Medical,Dr Daniel Novakovic
+24-Jan-25,-223,Card ending 2145, ,CREDIT CARD PURCHASE,DR PAUL DUNKIN WAHROONGA,-5614.56,Medical,
+24-Jan-25,-20.34,Card ending 2145, ,CREDIT CARD PURCHASE,ZAINS STORE PTY LTD Melbourne,-5391.56,Groceries,Zain's Store Pty Ltd
+24-Jan-25,-6.39,Card ending 2145, ,CREDIT CARD PURCHASE,FALCON CAFE PTY LTD Melbourne,-5371.22,Café & coffee,Falcon Cafe
+8-Jan-25,-688.77,Card ending 2145, ,CREDIT CARD PURCHASE,RESOLUTION LIFE QB SYDNEY,-5364.83,Insurance,Resolution Life Australasia
+6-Jan-25,-1115.76,Card ending 2145, ,CREDIT CARD PURCHASE,ASTERON LIFE SYDNEY,-4676.06,Insurance,Asteron
+3-Jan-25,-904.99,Card ending 2145, ,CREDIT CARD PURCHASE,WESTERN DISTRICT HEALT LITHGOW,-3560.3,Insurance,Westfund
+3-Jan-25,-178.31,Card ending 2145, ,CREDIT CARD PURCHASE,PETCOVER AUST PTY LT TULLAMARINE,-2655.31,Insurance,Petcover
+2-Jan-25,-2292,Card ending 2145, ,CREDIT CARD PURCHASE,KENNARDS SELF STORAGE GLADESVILLE,-2477,Services,Kennards Self Storage (Ryde)
+2-Jan-25,3996.62,Card ending 2145, ,CREDIT CARD PAYMENT,DIRECT DEBIT PAYMENT,-185,Internal transfers,
